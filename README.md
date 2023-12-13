@@ -1,13 +1,18 @@
 # team-echo
-Contains the work of a 2021 research colaboration between UC Berkeley and ReThink Media to develop classifiers for news coverage bias analysis of the 2020 election. One team worked to classify the genders of article authors while another team worked to classify whether a given article was news or opinion. This repository is a public copy of the original private repository. It contains the code for the news-v-opinion classifiers only.
+Here we develop 
 
 Contents:
-* `datasets`
-* ``
-* ``
-* ``
-* ``
-* ``
+* `data_modifiers` - scripts for distributing and balancing echocardiogram data
+* `datasets` - contains echocardiogram video data. Open distribution of the EchoNet dataset is not permitted, so for this public repository we have redacted this data.
+* `helpers` - helper functions
+* `models` - contains both binary classification (EF above or below 40%) and continuous EF regressor models
+* `FileList.csv` - table containing metadata on echocardiogram videos, including EF labels, framelength, and assigned train-val-test split
 
-Contributors:
+Code Contributors:
 > Vasu Kaker `VasuKaker` <br /> Daniel Chung `djaechung` <br /> Mindy Somin Lee `mindyslee` <br /> Yongyi Zhao
+
+Clinical Contributors:
+> Irbaz Riaz <br /> Sudheesha Perera <br /> Prabhu Sasankan <br /> George Tang <br /> Kpodonu Jacques <br /> Brigitte Kazz <br /> Leo Anthony Celi
+
+Technical Consultation:
+> Po-Chih Kuo
