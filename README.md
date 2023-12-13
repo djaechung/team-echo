@@ -17,7 +17,8 @@ Contents:
 * `helpers` - helper functions
 * `models` - contains both binary classification (EF above or below 40%) and continuous EF regressor models
 * `FileList.csv` - table containing metadata on echocardiogram videos, including EF labels, framelength, and assigned train-val-test split
-
+* `Project_Report.pdf` - project report, containing discussions of model methodology, cohort selection, results, clinical importance, etc.
+  
 Code Contributors:
 > Vasu Kaker `VasuKaker` <br /> Daniel Chung `djaechung` <br /> Mindy Somin Lee `mindyslee` <br /> Yongyi Zhao
 
