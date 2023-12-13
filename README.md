@@ -1,6 +1,8 @@
 # team-echo
 Here we develop 
 
+Another version of this repository can be found on contributor `VasuKaker`'s Github: https://github.com/VasuKaker/ML4H_Team_Echo
+
 Contents:
 * `data_modifiers` - scripts for distributing and balancing echocardiogram data
 * `datasets` - contains echocardiogram video data. Open distribution of the EchoNet dataset is not permitted, so for this public repository we have redacted this data.
