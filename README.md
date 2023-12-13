@@ -1,6 +1,7 @@
 # team-echo
-Here we apply deep learning models to predict ejection fraction (EF) from echocardiograms, which are ultrasound readings of the heart. Our data comes from the EchoNet dataset, which can be found at this link: https://echonet.github.io/dynamic/
-This is both a binary classification problem, to classify echocardiograms as being healthy (EF >= 40%) and unhealthy (EF < 40%), and a regression problem, to predict the actual EF value.
+Here we apply deep learning models to predict ejection fraction (EF) from echocardiograms, which are ultrasound readings of the heart. This is both a binary classification problem, to classify echocardiograms as being healthy (EF >= 40%) and unhealthy (EF < 40%), and a regression problem, to predict the actual EF value.
+
+Our data comes from the EchoNet dataset, which can be found at this link: https://echonet.github.io/dynamic/
 
 Our student team implemented two approaches:
 * Our SwinTransformer achieves a test AUC score of 0.88 and a test accuracy of 90% on the binary classification task
